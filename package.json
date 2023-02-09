@@ -1,0 +1,15 @@
+{
+  "name": "sportzproject",
+  "version": "1.0.0",
+  "description": "Project for a startup related to sports.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lucian Bellini",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
