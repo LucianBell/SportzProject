@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Register Screen</h1>
+
+    <form action="/registerConcluded" method="post">
+      <input type="text" placeholder="Bussine's name" id="input" name="name" />
+      <input type="email" placeholder="Email" id="input" name="email" />
+      <input
+        type="text"
+        placeholder="CNPJ"
+        minlength="14"
+        maxlength="14"
+        id="input"
+        name="cnpj"
+      />
+      <input
+        type="password"
+        placeholder="Your password"
+        id="input"
+        name="password"
+      />
+      <input type="password" placeholder="Confirm your password" id="input" />
+      <button type="submit" id="registerButton">Register</button>
+    </form>
+
+    <script src="../public/script.js"></script>
+  </body>
+</html>
